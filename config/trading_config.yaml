@@ -1,1 +1,41 @@
+trading:
+  symbols:
+    - "SPY"
+    - "QQQ" 
+    - "IWM"
+    - "DIA"
+  timeframe: "1h"
+  max_positions: 5
+  initial_capital: 100000
+  commission: 0.001
 
+news_sources:
+  primary:
+    - "newsapi"
+    - "alphavantage"
+    - "reuters_rss"
+  update_interval: 300  # 5 minutes
+
+sentiment:
+  models:
+    - "vader"
+    - "finbert"
+    - "ensemble"
+  thresholds:
+    strong_buy: 0.7
+    buy: 0.3
+    neutral: -0.3
+    sell: -0.7
+    strong_sell: -0.9
+
+blockchain:
+  network: "testnet"
+  gas_limit: 1000000
+  confirmation_blocks: 3
+
+risk_management:
+  max_position_size: 0.02
+  daily_loss_limit: 0.05
+  max_drawdown: 0.15
+  stop_loss: 0.02
+  take_profit: 0.04
