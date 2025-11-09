@@ -1,27 +1,22 @@
-# News Traders - AI-Powered News-Based Trading System
+# News Trading Platform
 
-A comprehensive algorithmic trading system that analyzes news sentiment and executes trades in real-time.
+[![CI/CD Status](https://github.com/seanpaulsp1508/News-traders/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/seanpaulsp1508/News-traders/actions/workflows/python-app.yml)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Features
+A blockchain-powered news trading platform with real-time sentiment analysis and smart contract execution.
 
-- **Real-time News Collection** from multiple sources (Reuters, Bloomberg, NewsAPI)
-- **Advanced Sentiment Analysis** using FinBERT and custom ML models
-- **Automated Signal Generation** with risk management
-- **Backtesting Framework** for strategy validation
-- **Live Trading Execution** with multiple broker support
+## 🚀 Features
 
-## Quick Start
+- Real-time news sentiment analysis
+- Blockchain integration for transparent trading
+- Smart contract-based risk management
+- Automated trading strategies
+
+## 📦 Quick Start
 
 ```bash
-# Clone repository
-git clone https://github.com/seanpauls/news-traders.git
-cd news-traders
-
-# Install dependencies
+git clone https://github.com/seanpaulsp1508/News-traders.git
+cd News-traders
 pip install -r requirements.txt
-
-# Run backtest
-python scripts/backtest_strategy.py
-
-# Start live trading
-python scripts/run_live_trading.py# News-traders
+python scripts/demo.py
